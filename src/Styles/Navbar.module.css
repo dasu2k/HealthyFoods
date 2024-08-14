@@ -1,0 +1,29 @@
+
+*{
+    font-family: "Junge" , cursive;
+}
+
+.navbar{
+    background-color: black;
+    color:white;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navitems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navitems a{ 
+    padding: 0px 15px;
+    text-decoration: none;
+    color:white;
+}
+
+.logo{
+    font-family: "Junge", cursive;
+    margin: 0px;
+}
