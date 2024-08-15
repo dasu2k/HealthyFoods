@@ -3,6 +3,7 @@ import Hero from './Components/Hero';
 import Navbar from './Components/Navbar';
 import Question from './Components/Question';
 import Process from './Components/Process';
+
 function App() {
   return (
     <div>

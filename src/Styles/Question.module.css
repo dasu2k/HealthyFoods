@@ -1,8 +1,24 @@
 .question{
     color:white;
     margin: 3em;
+    text-align: center;
 }
 
 .question p{
     font-size: 1.4em;
+    color: white;
+}
+
+.posts{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px  0px;
+}
+
+
+
+@media all and (max-width:800px){
+    .secondary{
+        display: none;
+    }
 }
