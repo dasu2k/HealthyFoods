@@ -77,3 +77,19 @@
     border-radius: 3px;
     border-style: groove;
 }
+
+
+
+@media all and (max-width: 500px){
+    .heading h1{
+        font-size: 1.5em;
+    }
+
+    .offer p{
+        font-size: 0.7em;
+    }
+
+    .phone phone{
+        font-size: 0.7em;
+    }
+}
