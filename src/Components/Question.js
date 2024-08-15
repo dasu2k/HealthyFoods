@@ -15,9 +15,9 @@ function Question() {
         <h1>Trusted and reviewed by influencers</h1>
         <div className={css.posts}>
           
-            <InstagramEmbed url="https://www.instagram.com/p/C-M5VBiRSJ8/" width={320} />
-            <InstagramEmbed url="https://www.instagram.com/p/C61GSLrRxAt/" width={320} className={css.secondary}/>
-            <InstagramEmbed url="https://www.instagram.com/p/C1RMjbFRdlj/" width={320} className={css.secondary}/>
+            <InstagramEmbed url="https://www.instagram.com/p/C-M5VBiRSJ8/" width={328} />
+            <InstagramEmbed url="https://www.instagram.com/p/C61GSLrRxAt/" width={328} className={css.secondary}/>
+            <InstagramEmbed url="https://www.instagram.com/p/C1RMjbFRdlj/" width={328} className={css.secondary}/>
 
         </div>
         
