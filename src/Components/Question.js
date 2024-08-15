@@ -3,13 +3,7 @@ import css from '../Styles/Question.module.css';
 import { InstagramEmbed } from 'react-social-media-embed';
 
 function Question() {
-  const settings = {
-    dots: true,
-    infinite: false,
-    speed: 10,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
+  
   return (
     <div className={css.question}>
         <h1>Trusted and reviewed by influencers</h1>

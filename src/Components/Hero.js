@@ -27,7 +27,7 @@ function Hero() {
           <p>Customized excercise plan to fit your lifestyle.</p>
         </div>
         <div className={css.phone}>
-          <p>Call : 9494121317</p>
+          <p><a href="tel:+919494121317">Call:+919494121317</a></p>
         </div>
       </div>
     </div>
