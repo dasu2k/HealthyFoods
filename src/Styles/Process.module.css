@@ -4,4 +4,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.717),rgba(0, 0, 0, 0.772)) , url("https://images.pexels.com/photos/2284166/pexels-photo-2284166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+}
+
+
+
+.processItem img{
+    width: 120px;
+    margin: 30px;
+}
+
+.processItem{
+    display: flex;
+    align-items: center;
+}
+
+.processItem p{
+    font-size: 1.5em;
+}
+
+.process h2{
+    font-size: 3em;
 }
