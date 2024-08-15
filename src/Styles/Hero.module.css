@@ -1,3 +1,79 @@
 .hero{
-    background-image: url("https://images.news18.com/ibnlive/uploads/2023/04/top-view-table-full-delicious-food-composition-16809304054x3.jpg?impolicy=website&width=640&height=480");
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.644),rgba(0, 0, 0, 0.596)), url("https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141356.jpg?t=st=1723654501~exp=1723658101~hmac=0c83eea728766ead743623744856d2a39740dbd0b7518ae33d9d09a10fb27d3c&w=996") ;
+
+    
+    background-repeat: no-repeat;
+    background-size:cover ;
+    
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+.heading{
+    margin: 0px;
+    color : white;
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 1.5em;
+    font-size: 2em;
+}
+
+
+
+.heading p{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    font-size: 0.5em;
+    margin-right: 4em;
+}
+
+.heading h1{
+    margin: 0px;
+} 
+
+.content{
+    display:flex;
+    flex-direction: column;
+}
+
+.offer{
+    color:white;
+    font-size: 2em;
+    display: flex;
+    margin: 0.6em 0em;
+}
+
+.offer p{
+    align-content: center;
+    padding-left: 1em;
+    font-size: 0.9em;
+}
+
+.offer img{
+    height: 150px;
+}
+
+.phone{
+    color:white;
+    padding: 10px 15px;
+    font-size: 1.6em;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.phone phone{
+    background-color: black;
+    padding: 10px;
+    border-color: white;
+    border-radius: 3px;
+    border-style: groove;
 }

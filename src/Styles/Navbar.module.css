@@ -11,6 +11,10 @@
     justify-content: space-between;
 }
 
+.insta{
+    width: 3em;
+}
+
 .navitems {
     display: flex;
     align-items: center;
@@ -26,4 +30,5 @@
 .logo{
     font-family: "Junge", cursive;
     margin: 0px;
+    width: 14em;
 }
