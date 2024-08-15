@@ -1,6 +1,6 @@
 import React from 'react';
 import css from '../Styles/Hero.module.css';
-import fork from '../Images/fork and spoon.png';
+import fork from '../Images/diet.png';
 import dumbell from '../Images/exercise.png';
 import waist from '../Images/slim.png';
 
@@ -16,7 +16,7 @@ function Hero() {
         
         <div className={css.offer}>
           <img src={fork}/>
-          <p>Get a customized diet.No compromise in taste or quality.</p>
+          <p>Get a customized diet.No compromise in taste and quality.</p>
         </div>
         <div className={css.offer}>
           <img src={waist}/>
@@ -27,7 +27,7 @@ function Hero() {
           <p>Customized excercise plan to fit your lifestyle.</p>
         </div>
         <div className={css.phone}>
-          <phone>Call : 9494121317</phone>
+          <p>Call : 9494121317</p>
         </div>
       </div>
     </div>

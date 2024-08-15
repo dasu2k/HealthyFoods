@@ -4,6 +4,8 @@ import plan from '../Images/check-list.png';
 import contact from '../Images/phone-call.png';
 import details from '../Images/details.png';
 function Process() {
+
+  
   return (
     <div className={css.process}>
         <h2>The Process</h2>

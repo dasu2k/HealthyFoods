@@ -6,7 +6,7 @@
 .navbar{
     background-color: black;
     color:white;
-    padding: 20px 20px;
+    padding: 1px;
     display: flex;
     justify-content: space-between;
 }
@@ -22,17 +22,27 @@
 }
 
 .navitems a{ 
-    padding: 0px 15px;
+    text-align: center;
     text-decoration: none;
     color:white;
+    display: flex;
+    align-items: center;
+}
+
+.navitems a:hover{
+    cursor: pointer;
+    color : grey;
 }
 
 .logo{
     font-family: "Junge", cursive;
     margin: 0px;
     width: 14em;
+    padding-left: 10px ;
 }
 
 @media all and (max-width: 500px){
-    
+    .navitems a p{
+        display: none;
+    }
 }
